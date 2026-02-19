@@ -11,8 +11,9 @@ body{
     width: 300px;
     display: block;
     margin:20px auto;
-    
-
+}
+.logo:hover {
+    transform: rotate(25deg) ; /* gira e aumenta */
 }
 main{
     width: 740px;
@@ -61,4 +62,9 @@ gap: 15px;
     justify-content: center;
     margin-top: 30px;
 }
+.imagens img:hover {
+    transform: scale(1.5) rotate(1.5deg); /* aumenta e gira levemente */
+    cursor: pointer;
+}
+
 
