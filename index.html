@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,500;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    
+
+    <title>Convert Money</title>
+</head>
+
+<body>
+    <img class="logo" src="./assets/logo 1.png" alt="logo" />
+    <main>
+
+        <label>
+            Converter <b>De:</b>
+            <select id="convert-from">
+                <option>€ Euro</option>
+                <option>R$ Real Brasileiro</option>
+                <option>U$ Dolar Americano</option>
+                <option>£ Libra</option>
+            </select>
+            <label>
+                Valor
+                <input class="input" id="input-currency" placeholder="€ 0,00">
+            </label>
+
+            Converter <b>Para:</b>
+            
+            <select  id="convert-to">
+                <option>R$ Real Brasileiro</option>
+                <option>€ Euro</option>
+                <option>U$ Dolar Americano</option>
+                <option>£ Libra</option>
+            </select>
+        </label>
+
+          <button class="convertbutton">Converter</button>
+
+        <label class="valor">
+            Valor Convertido
+             </label>
+
+            <input class="input " id="input-convert" placeholder="R$ 0,00">
+    
+
+
+        <section class="imagens">
+
+            <img src="./assets/Euro.png" alt="logo-euro-a-converter" />
+
+            <img src="./assets/Real.png" alt="logo-real-a-converter" />
+
+            <img src="./assets/Libra.png" alt="logo-libra-a-converter" />
+
+            <img src="./assets/Dolar.png" alt="logo-dolar-a-converter" />
+
+        </section>
+
+
+
+    </main>
+     <script src="./arquivo.js"></script>
+</body>
+
+</html>

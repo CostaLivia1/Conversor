@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto',sans-serif;
+}
+body{
+    background-color: rgb(17, 17, 16);
+}
+.logo{
+    width: 300px;
+    display: block;
+    margin:20px auto;
+    
+
+}
+main{
+    width: 740px;
+    background:#e9e5e5;
+     display: block;
+    margin: auto;
+    padding:20px 25px 25px ;
+}
+label{
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    display:block;  
+    margin-top: 15px;
+}
+select{
+    background:#be0de2;
+    font-size: 20px;
+    display: block;
+    margin-top: 15px;
+    
+}
+input{
+    background: #e9e5e5;
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+    
+}
+button{
+    background:#be0de2;
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.valor{
+display: block;
+gap: 15px;
+
+}
+
+.imagens{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
